@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="robots" content="noindex,nofollow">
+<title>君子娱乐注册|登录</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+<style>
+a{
+cursor:pointer;
+}
+</style>
+</head>
+<body class="w3-pale-blue">
+
+<div class="w3-container" style="margin-top:50px;">
+ 
+
+	<div class="w3-panel w3-center">
+		<img src="img/logo.png" class="w3-round" alt="君子娱乐">
+	</div>
+	
+	<div class="w3-panel w3-display-container " style="margin-top:50px;height:200px;">
+	
+	   <div class="w3-panel w3-center" >
+		 <button style="max-width:600px;" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round-xlarge w3-xlarge w3-red w3-block w3-hover-black w3-display-topmiddle"><span style="color:#fff">注册君子娱乐</span></button>
+	   </div>
+	  
+	  <div class="w3-panel " >
+		 <a style="max-width:600px" href="http://www.91junzi.com" target="_blank" class="w3-button w3-round-xlarge w3-xlarge w3-green w3-block w3-hover-black w3-display-middle"><span style="color:#fff">登入君子娱乐</span></a>
+	  </div>
+	  
+	  <div class="w3-panel w3-center" >
+		 <a style="max-width:600px" href="http://wpa.qq.com/msgrd?v=3&uin=3497271938&site=qq&menu=yes" target="_blank" class="w3-button w3-round-xlarge w3-xlarge w3-orange w3-block w3-hover-black w3-display-bottommiddle"><span style="color:#fff">QQ交谈：3497271938</span></a>
+	  </div>
+  
+    </div>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+  
+      <div class="w3-center"><br>
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">&times;</span>
+        <span><b>注册成为君子会员</b></span>
+      </div>
+
+      <form class="w3-container" >
+	  
+	  <div id="divMsg" class="w3-panel w3-yellow w3-display-container" style="display:none">
+		  <span onclick="this.parentElement.style.display='none'"
+		  class="w3-button w3-yellow w3-large w3-display-topright">&times;</span>
+		  <p id="pMsg"></p>
+	  </div>
+	  
+        <div class="w3-section">
+          <label><b>用户名</b></label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="用户名必须为6-10位英文或数字组成" id="user_name" name="usrname" required>
+          <label><b>密码</b></label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="密码必须为6-15位任意字符组成" id="password" name="pwd" required>
+		  <label><b>手机</b></label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="请输入手机号码" id="tel"　name="tel" >
+		  <label><b>QQ</b></label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="请输入QQ号" id="qq" name="qq" >
+		  <label><b>验证码</b></label>
+          <div class="w3-row">
+			<div class="w3-twothird"><input class="w3-input w3-border" name="valid_code" id="valid_code" type="text" placeholder="验证码"></div>
+			<div class="w3-col" style="width:120px;height:audio;margin-left:5px;">
+				<img class="w3-border w3-padding" id="imgCode" alt="点击" title="" src="http://www.91junzi.com/jsp/image.jsp?rand=4374" onclick="this.src='http://www.91junzi.com/jsp/image.jsp?rand='+ Math.round(Math.random() * 10000)">
+			</div>
+		  </div>
+          <button id="reg_btn" class="w3-button w3-block w3-green w3-section w3-padding" type="button">注册</button>
+         <!-- <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me-->
+        </div>
+		
+		
+		
+      </form>
+
+	  <!--
+      <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+        <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+        <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+      </div>-->
+
+    </div>
+  </div>
+</div>
+  <script type="text/javascript" src="js/register.js"></script>      
+ 
+</body>
+</html>
